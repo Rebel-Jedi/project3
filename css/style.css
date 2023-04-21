@@ -1,0 +1,111 @@
+#main-navbar {
+  overflow: hidden;
+  background-color: #0000ff;
+}
+
+#navbar-container {
+  float: left;
+  width: 100%;
+  position: relative;
+}
+
+#main-navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  left: 50%;
+  float: left;
+} 
+
+#main-navbar ul li {
+  float: left;
+  position: relative;
+  right: 50%;
+  display: block;
+  font-size: 20px;
+}
+
+#main-navbar ul li a {
+  display: block;
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+}
+
+#main-navbar ul li a:hover {
+  background-color: #1E90FF;
+  color: white;
+}
+
+.center-text {
+  text-align: center;
+  font-family: monospace;
+}
+
+.center-title {
+  text-align: center;
+  font-family: arial;
+}
+
+.align-left {
+  float: left;
+  font-family: impact;
+}
+.align-right {
+  float: right;
+  font-family: impact;
+}
+
+.reset {
+  clear: both;
+}
+
+.resume-page-background {
+  background-color: #33cccc;
+}
+
+#resume-template{
+  width: 70%;
+  margin: 0 auto 5% auto;
+  padding: 1% 1% 1% 1%;
+  background-color: #F5FFFA;
+}
+
+.img {
+  width: 20%;
+  height: auto;
+}
+
+.img-half{
+
+}
+
+.printer-page{
+
+  background-color: orange;
+}
+
+#printer-one {
+  background-color:#4682B4;
+  float: left;
+  width: 45%;
+  border: 1px solid black;
+  text-align: center;
+  padding: 1%;
+  margin: 0 1.5% 2%;
+}
+
+#printer-two {
+  background-color:#4682B4;
+  float: right;
+  width: 45%;
+  border: 1px solid black;
+  text-align: center;
+  padding: 1%;
+  margin: 0 1% 2%;
+}
+
+#model-wrapper{
+  width: 100%;
+}
