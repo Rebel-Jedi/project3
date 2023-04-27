@@ -65,6 +65,12 @@
   background-color: #33cccc;
 }
 
+@media screen and (max-width: 992px) {
+  .resume-page-background {
+    background-color: blue;
+  }
+}
+
 #resume-template{
   width: 70%;
   margin: 0 auto 5% auto;
